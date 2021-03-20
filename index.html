@@ -10,10 +10,18 @@
     <h1>Task Lister Lite™️</h1>
 
     <form id="create-task-form" action="#" method="post">
+        <input class='colors' type="radio" id="yellow" name="gender" value="male">
+        <label for="male">Yellow</label><br>
+        <input class='colors' type="radio" id="red" name="gender" value="female">
+        <label for="female">Red</label><br>
+        <input class='colors' type="radio" id="green" name="gender" value="other">
+        <label for="other">Green</label>
       <label for="new-task-description">Task description:</label>
       <input type="text" id="new-task-description" name="new-task-description" placeholder="description">
-      <input type="submit" value="Create New Task">
+      <input type="submit" id="malo" value="Create New Task">
     </form>
+
+
 
     <div id="list">
       <h2>My Todos</h2>
@@ -21,7 +29,8 @@
       </ul>
     </div>
 
-    <script src="./src/index.js"></script>
+    <script src="./index.js">
+    </script>
   </div>
 
 </body>
